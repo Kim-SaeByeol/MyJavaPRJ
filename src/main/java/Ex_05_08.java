@@ -18,5 +18,7 @@ public class Ex_05_08 {
             System.out.printf("D");    //입력 값 a 가 60 이상이면 D 출력 후 if 문을 빠져나감.
         } else
             System.out.printf("F");     //입력 값 a 가 60 미만 이라면 F 출력.
+
+        //else if 의 경우에는 조건문에 사용되는 기준 변수가 항상 같을 경우에만 사용.
     }
 }
