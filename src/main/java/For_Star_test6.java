@@ -20,6 +20,7 @@ public class For_Star_test6 {
                         System.out.print("*");
             }
             System.out.println();
+            //2320110184 김새별
         }
     }
 }
