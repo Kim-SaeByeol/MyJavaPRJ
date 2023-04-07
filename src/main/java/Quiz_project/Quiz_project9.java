@@ -18,10 +18,12 @@ public class Quiz_project9 {
             Array[i] = Number;
         }
         //중복이라면 return 을 통해 반환값이 없는 void 메소드에서 빠져나감. => main 메소드를 빠져나가기에 그대로 종료.
-        for(int i = 1; i < Array.length; i++) {
-            if (Array[0] == Array[i]) {
-                System.out.printf("중복 값이 있네요! 프로그램 종료!");
-                return;
+        for(int i = 0; i < Array.length; i++) {
+            for(int j = i+1; j < Array.length; j++){
+                if (Array[i] == Array[j]) {
+                    System.out.printf("중복 값이 있네요! 프로그램 종료!");
+                    return;
+                }
             }
         }
         //변수를 바꿔야하기에 change 변수를 선언함.
