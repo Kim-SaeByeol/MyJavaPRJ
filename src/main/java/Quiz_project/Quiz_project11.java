@@ -56,6 +56,7 @@ public class Quiz_project11 {
             System.out.print(arr[i] + ",");
         }
         System.out.println(" 입니다.");
+        sc.close();
     }
 }
 
