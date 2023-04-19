@@ -32,20 +32,35 @@ public class Selection_Sort {
         k => 1 ~ 5 = 0 ~ 4, i => 0 ~ 4, j => 1 ~ lengh
         <k> [i] 과 [j]
                  */
-        int change = 0;
-        for (int i = 0; i < array.length; i++) {
-            for (int j = i+1; j < array.length; j++) {
-                // '>' 를 '<' 로 바꾸면 내림차순
-                if (array[i] > array[j]) {
+//        int change = 0;
+//        for (int i = 0; i < array.length; i++) {
+//            for (int j = i+1; j < array.length; j++) {
+//                // '>' 를 '<' 로 바꾸면 내림차순
+//                if (array[i] < array[j]) {
+//                    change = array[i];
+//                    array[i] = array[j];
+//                    array[j] = change;
+//                }
+//            }
+//        }
+
+        //<4> 배열 내림차순 정렬
+        for(int i = 0; i<array.length; i++) {
+            for (int j = i + 1; j < array.length; j++) {
+                int change;
+
+                //내림차순이므로 인덱스가 1 낮은 i가 j보다 작아야됨.
+                if (array[i] < array[j]) {
                     change = array[i];
                     array[i] = array[j];
                     array[j] = change;
                 }
             }
         }
-        //올바르게 오름차순으로 되었는지 배열의 값 순서대로 확인.
-        for (int i = 0; i < array.length; i++)
-            System.out.print(array[i]);
-        sc.close();
+                    //올바르게 오름차순으로 되었는지 배열의 값 순서대로 확인.
+                    for (int i = 0; i < array.length; i++)
+                        System.out.print(array[i] + " ");
+                    sc.close();
+
     }
 }

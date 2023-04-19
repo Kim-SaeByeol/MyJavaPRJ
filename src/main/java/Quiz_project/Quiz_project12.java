@@ -2,6 +2,7 @@ package Quiz_project;
 
 import java.util.Scanner;
 
+
 /*
 <문제>
 5개의 입력 받는 정수를 큰 순서대로 출력하시오.

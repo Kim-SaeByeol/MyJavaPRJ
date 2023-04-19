@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class Quiz_project11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num, change, count = 0;
+        int num, change;
 
         //<1> 배열 생성. 중복인지 확인을 위한 boolean 배열도 같이 생성.
         int arr[] = new int[5];
@@ -29,7 +29,7 @@ public class Quiz_project11 {
             arr[i] = num;
         }
 
-        //<3> 배열 순서 정렬
+      //<3> 배열 순서 정렬
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] > arr[j]) {
@@ -39,11 +39,11 @@ public class Quiz_project11 {
                 }
             }
         }
-        //<4> 중복 제거
+       //<4> 중복 제거
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] == arr[j])
-                    truearr[i] = true;
+                    truearr[j] = true;
             }
         }
 
