@@ -1,4 +1,4 @@
-package Java_Study;
+package MidTerm_Java_Study;
 //23.04.09 (일요일)    데이터타입 간에 계산.
 public class Java_Study_1Day {
     public static void main(String[] args) {

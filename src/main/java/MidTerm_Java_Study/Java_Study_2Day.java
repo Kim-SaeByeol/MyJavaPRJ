@@ -1,4 +1,4 @@
-package Java_Study;
+package MidTerm_Java_Study;
 //if 문과 for문에 대하여
 public class Java_Study_2Day {
     public static void main(String[] args) {

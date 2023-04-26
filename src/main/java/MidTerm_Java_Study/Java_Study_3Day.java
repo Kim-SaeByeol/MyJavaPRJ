@@ -1,4 +1,4 @@
-package Java_Study;
+package MidTerm_Java_Study;
 
 public class Java_Study_3Day {
     public static void main(String[] args) {

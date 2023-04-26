@@ -1,6 +1,4 @@
-package Java_Study;
-
-import java.util.Scanner;
+package MidTerm_Java_Study;
 
 public class Java_Study_6Day {
     public static void main(String[] args) {
