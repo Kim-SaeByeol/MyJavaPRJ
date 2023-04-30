@@ -32,5 +32,7 @@ public class Linked_List {
         }
         System.out.println(list.contains(1)); //list에 1이 있는지 검색 : true
         System.out.println(list.indexOf(1)); //1이 있는 index반환 없으면 -1
+
+
     }
 }
