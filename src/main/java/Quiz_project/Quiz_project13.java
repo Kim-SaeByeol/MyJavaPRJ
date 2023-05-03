@@ -26,6 +26,7 @@ public class Quiz_project13 {
                 //단, 함수 내부의 동작이 순차탐색이기에 속도가 느림.
                 if(list.get(i) < list.get(j)){
                     int change = list.get(i);
+
                     //set(int index, E element)
                     //해당 인덱스에 저장할 요소가 element 이며, 내부 데이터를 외부에서 지정하기에 제네릭 타입이 들어간다.
                     //해당 LinkedList는 Integer 타입으로 선언 되어있기에 저장할 요소 또한 Integer 여야한다.
