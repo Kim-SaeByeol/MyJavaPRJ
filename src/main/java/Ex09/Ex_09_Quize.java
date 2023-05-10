@@ -9,5 +9,7 @@ public class Ex_09_Quize {
 
         //문제 호출날짜와 시간만 출력
         System.out.println(log.substring(log.indexOf("[")+1, log.lastIndexOf("]")));
+        int a = log.indexOf("[");
+
     }
 }
