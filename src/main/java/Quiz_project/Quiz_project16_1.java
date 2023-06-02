@@ -36,6 +36,6 @@ public class Quiz_project16_1 {
         return gender;
     }
     public void setGender(String gender){
-        this.gender = gender;
+        gender = gender;
     }
 }
